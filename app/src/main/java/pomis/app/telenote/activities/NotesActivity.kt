@@ -5,7 +5,7 @@ import android.os.Bundle
 import pomis.app.telenote.R
 import pomis.app.telenote.base.BaseActivity
 
-class NotesActivity : AppCompatActivity() {
+class NotesActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

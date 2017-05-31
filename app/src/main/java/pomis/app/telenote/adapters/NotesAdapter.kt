@@ -8,13 +8,11 @@ import android.widget.ArrayAdapter
 import android.widget.TextView
 import org.jetbrains.anko.find
 import pomis.app.telenote.R
-import pomis.app.telenote.models.Note
+import pomis.app.telenote.models.Page
 
-/**
- * Created by romanismagilov on 31.05.17.
- */
-class NotesAdapter(context: Context?, resource: Int, textViewResourceId: Int, var list: MutableList<Note>?)
-    : ArrayAdapter<Note>(context, resource, textViewResourceId, list) {
+
+class PagesAdapter(context: Context?, resource: Int, textViewResourceId: Int, var list: MutableList<Page>?)
+    : ArrayAdapter<Page>(context, resource, textViewResourceId, list) {
 
     private var mInflator: LayoutInflater? = LayoutInflater.from(context)
 

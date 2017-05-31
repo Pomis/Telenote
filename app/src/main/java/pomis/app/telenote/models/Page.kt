@@ -5,7 +5,7 @@ import io.realm.RealmObject
 import io.realm.annotations.RealmClass
 
 @RealmClass
-open class Note : RealmObject(){
+open class Page : RealmObject() {
 
     open var path: String? = null
 
