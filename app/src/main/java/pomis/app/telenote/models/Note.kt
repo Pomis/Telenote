@@ -17,11 +17,12 @@ open class Note : RealmObject(){
 
     open var author_name: String? = null
 
-    open var content: Content? = null
-
-    open class Content : RealmObject(){
-
-        open var children: ArrayList<String>? = null
-
-    }
+//    open var content: Content? = null
+//
+//    @RealmClass
+//    open class Content : RealmObject(){
+//
+//        open var children: ArrayList<String>? = null
+//
+//    }
 }

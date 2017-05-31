@@ -14,4 +14,6 @@ Main features:
 - Ready-to-type immediately after click on app icon
 - Day and night mode
 - Text formatting
+- Fingerprint access
+- [?] Support of Telegram UI themes
 - [?] Multiple telegraph accounts

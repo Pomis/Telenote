@@ -10,11 +10,7 @@ import android.view.ViewGroup
 import pomis.app.telenote.R
 
 
-/**
- * A simple [Fragment] subclass.
- */
 class NoteListFragment : Fragment() {
-
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -22,4 +18,4 @@ class NoteListFragment : Fragment() {
         return inflater!!.inflate(R.layout.fragment_note_list, container, false)
     }
 
-}// Required empty public constructor
+}
