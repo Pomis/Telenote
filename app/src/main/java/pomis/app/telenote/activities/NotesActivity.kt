@@ -5,6 +5,10 @@ import android.os.Bundle
 import pomis.app.telenote.R
 import pomis.app.telenote.base.BaseActivity
 
+
+/*
+ * kapt error with no track
+ */
 class NotesActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
