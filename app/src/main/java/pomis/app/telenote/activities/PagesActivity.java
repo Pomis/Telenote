@@ -1,9 +1,12 @@
-package pomis.app.telenote;
+package pomis.app.telenote.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PagesActivity extends AppCompatActivity {
+import pomis.app.telenote.R;
+import pomis.app.telenote.base.BaseActivity;
+
+public class PagesActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
