@@ -1,6 +1,7 @@
 ### [DEVELOPMENT]
 
 ### Telenote
+[![Stories in Ready](https://badge.waffle.io/Pomis/Telenote.svg?label=ready&title=Ready)](http://waffle.io/Pomis/Telenote)
 
 
 
